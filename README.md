@@ -7,3 +7,24 @@ The purpose of this project was to predict precipitation rates and frequency usi
 
 The dataset used here contains 896,712 observations from July 1, 2024 to August 1, 2024. Each observation contains a temperature reading for each of the 13 frequency channels and the Level 2B precipitation rate. All models used the thirteen frequency channel readings as features and the precipitation rate as the outcome. 
 
+## Variables included in dataset
+
+| Variable | Name | Unit | Frequency | Polarization | Variable Type | Typical Sensitivity |
+| -------- | ---- | ---- | --------- | ------------ | ------------- | ------------------- |
+| Tb1 | Brightness temperature channel 1 | Kelvin | ~10.65 GHz | Vertical | Heavy to moderate rainfall |
+| Tb2 | Brightness temperature channel 2 | Kelvin | ~10.65 GHz | Horizontal | Heavy to moderate rainfall |
+| Tb3 | Brightness temperature channel 3 | Kelvin | ~18.7 GHz | Vertical | Numeric | Heavy to moderate rainfall |
+| Tb4 | Brightness temperature channel 4 | Kelvin | ~18.7 GHz | Horizontal | Numeric | Heavy to moderate rainfall |
+| Tb5 | Brightness temperature channel 5 | Kelvin | ~23.8 GHz | Vertical | Numeric | Heavy to moderate rainfall |
+| Tb6 | Brightness temperature channel 6 | Kelvin | ~36.5 GHz | Vertical | Numeric | Precipitation mixtures of snow and ice within clouds |
+| Tb7 | Brightness temperature channel 7 | Kelvin | ~36.5 GHz | Horizontal | Numeric | Precipitation mixtures of snow and ice within clouds |
+| Tb8 | Brightness temperature channel 8 | Kelvin | ~89 GHz | Vertical | Numeric | Precipitation mixtures of snow and ice within clouds | 
+| Tb9 | Brightness temperature channel 9 | Kelvin | ~89 GHz | Horizontal | Numeric | Precipitation mixtures of snow and ice within clouds |
+| Tb10 | Brightness temperature channel 10 | Kelvin | ~166 GHz | Vertical | Numeric | Water vapor and snowfall |
+| Tb11 | Brightness temperature channel 11 | Kelvin | ~166 GHz | Horizontal | Numeric | Water vapor and snowfall |
+| Tb12 | Brightness temperature channel 12 | Kelvin | ~183.3+-3 GHz | Vertical | Numeric | Water vapor and snowfall |
+| Tb13 | Brightness temperature channel 13 | Kelvin | ~183+-7 GHz | Vertical | Numeric | Water vapor and snowfall |
+| pr | Precipitation rate | Millimeters per hour | N/A | N/A | Numeric | N/A |
+| lon | Longitude | Degrees east | N/A | N/A | Numeric | N/A |
+| lat | Latitude | Degrees North | N/A | N/A | Numeric | N/A |
+| time | Time of observation | Standard | N/A | N/A | datetime | N/A | 
