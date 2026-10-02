@@ -1,0 +1,16 @@
+---
+title: "Untitled"
+format: html
+---
+
+```{r}
+# packages 
+library(tidyverse)
+library(reticulate)
+```
+
+```{python}
+# packages
+import pandas as pd 
+import matplotlib.pyplot as plt 
+```
